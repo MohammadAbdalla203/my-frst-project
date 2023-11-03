@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+.main{
+    width: 100%;
+    height: 667px;    
+}
+.main .le{
+    width: 100%;
+    height: 45%;
+    background-color: hsl(252, 100%, 67%);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display: grid;
+
+}
+.main .le h3{
+    color: white;
+    text-align: center;
+    height: 20px;
+    margin: 15px;
+    /* background: red; */
+}
+.main .le div{
+    color: white;
+    position: relative;
+    left: 30%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px; 
+    height: 140px ; 
+    background-color: hsl(241, 81%, 54%);
+}
+.main .le div h1{
+    font-size: 55px;
+}
+.main .le div::after{
+    position: absolute;
+    bottom: 25px;
+    content: "of 100";
+    opacity: .6;
+}
+.main .le p{
+    color: white;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+.main .ra{
+    width: 100%;
+    height: 55%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 70% 20%;
+    justify-content: center;
+    align-items: center;
+    
+}
+.gg{
+    /* margin-top: -10px; */
+    position: relative;
+    font-size: 18px;
+    width: 87%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: 10% 35% 1fr 20%;
+    align-items: center;
+    border-radius: 5px;
+    background: red;
+    
+    /* grid-template-rows: 25% 25% 25% 25%; */
+}
+.gg1{
+    top: -20px;
+    background-color:  hsl(0, 42%, 88%);
+}
+.gg2{
+    top: -10px;
+    background-color:  hsl(47, 100%, 93%);
+}
+.gg3{
+    
+    background-color:  hsl(111, 92%, 90%);
+}
+.gg4{
+    bottom: -15px;
+    background-color:  hsl(214, 92%, 90%);
+}
+
+.main .h2{
+    height: 175px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    grid-template-rows: auto auto auto auto ;
+}
+span{
+    color: rgb(103, 106, 109);
+}
+.main .h6 {
+    
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h6 button{
+    width: 85%;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+    background-color: hsl(224, 30%, 27%);
+}
+.h3 h3{
+    margin-left: 25px;
+
+
+}

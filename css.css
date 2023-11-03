@@ -1,0 +1,133 @@
+*{
+    /* color: white; */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+body{
+    height: 619px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.main{
+    box-shadow:0px 0px 5px 3px rgb(141, 139, 139);
+    width: 55%;
+    height: 465px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .ra,
+.main .le{
+    width: 30%;
+    height: 70%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.main .le{
+    color: white;
+    border-radius: 20px;
+   background-color: hsl(252, 100%, 67%);
+    /* grid-template-rows: 15% 45% 15% 25%; */
+}
+.main .ra{
+    /* box-shadow:0px 0px 5px 3px rgb(141, 139, 139); */
+    grid-template-rows: repeat(6,1fr);
+}
+.main .le div{
+    
+    position: relative;
+    left: 20%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 140px; 
+     height: 140px ; 
+     background-color: hsl(241, 81%, 54%);
+     
+}
+ .main .le div h1{
+    font-size: 55px;
+} 
+.main .le div::after{
+    position: absolute;
+    bottom: 25px;
+    content: "of 100";
+    opacity: .6;
+}
+.main .le p{
+   margin: 13px;
+}
+.ra{
+    display: grid;
+    grid-template-columns: auto;
+    
+}
+
+.main .h3{
+    width: 100%;
+    height: 60px;
+    display:flex;
+    align-items: center;
+    
+}
+.main .h3 h3{
+    margin-left:20px ;
+}
+.main .h6 {
+    
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h6 button{
+    width: 85%;
+    height: 40%;
+    border-radius: 50px;
+    color: white;
+    background-color: hsl(224, 30%, 27%);
+}
+
+/* medim */
+
+.gg{
+    font-size: 15px;
+    width: 85%;
+    height: 37px;
+    display: grid;
+    grid-template-columns: 10px 37% 1fr 37%;
+    align-items: center;
+    border-radius: 5px;
+    background: red;
+    /* grid-template-rows: 25% 25% 25% 25%; */
+}
+.gg1{
+    background-color:  hsl(0, 42%, 88%);
+}
+.gg2{
+    background-color:  hsl(47, 100%, 93%);
+}
+.gg3{
+    background-color:  hsl(111, 92%, 90%);
+}
+.gg4{
+    background-color:  hsl(214, 92%, 90%);
+}
+
+.main .h2{
+    height: 175px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    grid-template-rows: auto auto auto auto ;
+}
+span{
+    color: rgb(103, 106, 109);
+}
